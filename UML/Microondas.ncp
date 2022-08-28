@@ -1,0 +1,28 @@
+<Project>
+  <Name>Microondas</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Microondas</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Microondas</Name>
+        <Access>Public</Access>
+        <Location left="487" top="218" />
+        <Size width="362" height="292" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int minutos</Member>
+        <Member type="Field">boolean ligado</Member>
+        <Member type="Field">int segundos</Member>
+        <Member type="Field">bool porta</Member>
+        <Member type="Field">boolean pause</Member>
+        <Member type="Method">public String VerTemp()</Member>
+        <Member type="Method">public boolean AbrirFechar()</Member>
+        <Member type="Method">public boolean AtualizarTemporizador(int seg, int min)</Member>
+        <Member type="Method">public boolean LigarDesligar()</Member>
+        <Member type="Method">public boolean Pausar()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
