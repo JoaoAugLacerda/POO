@@ -7,7 +7,7 @@ public class App {
         int opcoes = 0;
 
         while (opcoes != 5) {
-            System.out.println("POO Exerc Microondas - Aluno: João Augusto Lacerda Silva 630889 - 26/08/22");
+            System.out.println("POO Exerc Microondas - Aluno: João Augusto - 26/08/22");
             System.out.println(
                     "------------ Menu ------------ \n 1 - Ligar/Desligar \n 2 - Abrir/fechar \n 3 - Atualizar tempo \n 4 - Pausar/Despausar \n 5 - Tirar da tomada");
             opcoes = ler.nextInt();
